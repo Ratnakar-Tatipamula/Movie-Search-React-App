@@ -1,0 +1,24 @@
+nav {
+    background-color: #001234;
+    color: #fff;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  li {
+    padding-right: 2em;
+    font-weight: bold;
+  }
+  
+  li:first-child {
+    margin-right: auto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
